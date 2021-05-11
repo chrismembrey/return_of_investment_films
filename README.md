@@ -1,4 +1,4 @@
-<h1> Predicting Film Return On Investment using TMDB and IMDB </h1>
+<h2> Predicting Film Return On Investment using TMDB and IMDB </h2>
 
 <img src = "/readme/movie_collage.png" width="700">
 
