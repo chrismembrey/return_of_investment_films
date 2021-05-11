@@ -63,7 +63,7 @@ Linear Regression, a Support Vector Machine (linear kernel only) and a Decision 
 
 As outliers were removed the training and test scores were ameliorated, giving increased confidence in the effect/importance of the coefficients (variables).
 
-<img src = "/readme/ElasticNet_Models_with_Various_Preprocessing_Methods.pdf" width="700">
+<img src = "/readme/ElasticNet_Models_with_Various_Preprocessing_Methods.jpeg" width="700">
 
 The root mean squared error was also used as a metric to compare the models' performance.
 
