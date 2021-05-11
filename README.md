@@ -1,6 +1,6 @@
 <h1> Predicting Film Return On Investment using TMDB and IMDB </h1>
 
-<img src = "/Final_Movies/readmeregression_models_original.png" width="700">
+<img src = "/readme/regression_models_original.png" width="700">
 
 **Look at the full presentation here:**
 https://docs.google.com/presentation/d/143nyULpnLyzoOyFYceJvd_ZPJrZUcaTPaFIGM6gTPUE/edit#slide=id.p
