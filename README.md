@@ -74,7 +74,7 @@ The root mean squared error was also used as a metric to compare the models' per
 ElasticNet Logistic Regression, Decision Tree Classification, XGBoost (ensemble method) and a Support Vector Machine were used to predict whether films would make a profit or not. Each film performed better than randomly guessing if the film would make a profit (above the baseline accuracy) with the best being an ElasticNet logistic regression model (l1_ratio of 0.21 , C of 51.79). The ElasticNet model had a cross validated accuacy of ~0.66 and had a similar score to the Support Vetor Machine.
 
 
-<img src = "/readme/regression_models_original.jpeg" width="700">
+<img src = "/readme/classification_models_train_scores.jpeg" width="700">
 
 
 A multi-class classification model was also carried out. The ROI variable was split into quintiles (baseline accuracy of 0.20) and an ElastiNet Logistic Regression produced an accuracy of 0.33.  
