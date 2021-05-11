@@ -59,7 +59,7 @@ After cleaning, around 9,500 datapoints were left and the following columns were
 ## Regression Modelling
 Linear Regression, a Support Vector Machine (linear kernel only) and a Decision Tree Regression was used to predict the ROI of films. The best model was an ElasticNet linear regression model. 
 
-<img src = "/readme/regression_models_original.pdf" width="700">
+<img src = "/readme/regression_models_original.jpeg" width="700">
 
 As outliers were removed the training and test scores were ameliorated, giving increased confidence in the effect/importance of the coefficients (variables).
 
@@ -67,14 +67,14 @@ As outliers were removed the training and test scores were ameliorated, giving i
 
 The root mean squared error was also used as a metric to compare the models' performance.
 
-<img src = "/readme/ElasticNet_Models_with_Various_Preprocessing_Methods_rmse.pdf" width="700">
+<img src = "/readme/ElasticNet_Models_with_Various_Preprocessing_Methods_rmse.jpeg" width="700">
 
 
 ## Classification Modelling
 ElasticNet Logistic Regression, Decision Tree Classification, XGBoost (ensemble method) and a Support Vector Machine were used to predict whether films would make a profit or not. Each film performed better than randomly guessing if the film would make a profit (above the baseline accuracy) with the best being an ElasticNet logistic regression model (l1_ratio of 0.21 , C of 51.79). The ElasticNet model had a cross validated accuacy of ~0.66 and had a similar score to the Support Vetor Machine.
 
 
-<img src = "/readme/regression_models_original.pdf" width="700">
+<img src = "/readme/regression_models_original.jpeg" width="700">
 
 
 A multi-class classification model was also carried out. The ROI variable was split into quintiles (baseline accuracy of 0.20) and an ElastiNet Logistic Regression produced an accuracy of 0.33.  
