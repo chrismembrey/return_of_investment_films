@@ -57,7 +57,7 @@ After cleaning, around 9,500 datapoints were left and the following columns were
 
 
 ## Regression Modelling
-Linear Regression, a Support Vector Machine (linear kernel only) and a Decision Tree Regression was used to predict the ROI of films. The best model was an ElasticNet linear regression model. 
+Linear Regression, a Support Vector Machine (linear kernel only) and a Decision Tree Regression was used to predict the ROI of films. The best model was an ElasticNet linear regression model for data where ROI was less than 500% and the model only yeilded a score of 0.155 
 
 <img src = "/readme/regression_models_original.jpeg" width="700">
 
