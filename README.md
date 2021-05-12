@@ -57,7 +57,7 @@ After cleaning, around 9,500 datapoints were left and the following columns were
 
 
 ## Regression Modelling
-Linear Regression, a Support Vector Machine (linear kernel only) and a Decision Tree Regression was used to predict the ROI of films. The best model was an ElasticNet linear regression model for data where ROI was less than 500% and the model only yeilded a score of 0.155 
+Linear Regression, a Support Vector Machine (linear kernel only) and a Decision Tree Regression was used to predict the ROI of films. The best model was an ElasticNet linear regression model for data where ROI was less than 500% and the model only yeilded a score of 0.155 showing limited explainability in ROI variance.
 
 <img src = "/readme/regression_models_original.jpeg" width="700">
 
@@ -77,7 +77,9 @@ ElasticNet Logistic Regression, Decision Tree Classification, XGBoost (ensemble 
 <img src = "/readme/Classification_Models_Train_scores.jpeg" width="700">
 
 
-A multi-class classification model was also carried out. The ROI variable was split into quintiles (baseline accuracy of 0.20) and an ElastiNet Logistic Regression produced an accuracy of 0.33.  
+A multi-class classification model was also carried out. The ROI variable was split into quintiles (baseline accuracy of 0.20) and an ElastiNet Logistic Regression produced an accuracy of 0.33.
+
+
 
 ## Future Work
 - Use an alternative data source for film budgets and revenues (e.g. the-numbers.com). 
