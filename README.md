@@ -1,3 +1,4 @@
+![Screenshot 2021-05-13 at 17 25 22](https://user-images.githubusercontent.com/76961031/118155547-3e24af00-b410-11eb-941c-a638f23a99cc.png)
 <h2> Predicting Film Return On Investment using TMDB and IMDB </h2>
 
 <img src = "/readme/movie_collage.png" width="700">
@@ -91,7 +92,8 @@ A multi-class classification model was also carried out. The ROI variable was sp
 
 Below you can see the effect of the top variables across the five classes.
 
-![Screenshot 2021-05-13 at 17 09 26](https://user-images.githubusercontent.com/76961031/118153991-6a3f3080-b40e-11eb-943c-4499b87ecf7d.png)
+![Screenshot 2021-05-13 at 17 25 22](https://user-images.githubusercontent.com/76961031/118155596-4b419e00-b410-11eb-898b-13b8a4f9a8b6.png)
+
 
 
 ## Conclusion
