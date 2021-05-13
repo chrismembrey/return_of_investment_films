@@ -1,4 +1,3 @@
-![Screenshot 2021-05-13 at 17 25 22](https://user-images.githubusercontent.com/76961031/118155547-3e24af00-b410-11eb-941c-a638f23a99cc.png)
 <h2> Predicting Film Return On Investment using TMDB and IMDB </h2>
 
 <img src = "/readme/movie_collage.png" width="700">
