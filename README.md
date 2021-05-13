@@ -11,6 +11,7 @@ https://docs.google.com/presentation/d/143nyULpnLyzoOyFYceJvd_ZPJrZUcaTPaFIGM6gT
 - [Data Collection & Pre-Processing](#data-collection---pre-processing)
 - [Regression Modelling](#regression-modelling)
 - [Classification Modelling](#classification-modelling)
+- [Conclusion](#conclusion)
 - [Future Work](#future-work)
 - [Notebook Order](#notebook-order)
 
@@ -93,6 +94,9 @@ Below you can see the effect of the top variables across the five classes.
 ![Screenshot 2021-05-13 at 17 09 26](https://user-images.githubusercontent.com/76961031/118153991-6a3f3080-b40e-11eb-943c-4499b87ecf7d.png)
 
 
+## Conclusion
+
+Although the models are not productionable (based on low r-squared scores and minimal improvement on baseline accuracy), through them I have found one feature which can certainly be used to predict film ROI in future models, from_collection, which appeared to be the highest coefficient in every model. 
 
 
 ## Future Work
@@ -106,7 +110,7 @@ Below you can see the effect of the top variables across the five classes.
 
 
 ## Notebook Order
-1. move_scraping_final.ipynb  
+1. movie_scraping_final.ipynb  
 2. cleaning & EDA.ipynb  / BLURB SPACY ANALYSIS.ipynb
 3. modelling to see feature importance using regression techniques.ipynb
 4. classifying_profit_for_comparison_against_the_regression_models.ipynb
