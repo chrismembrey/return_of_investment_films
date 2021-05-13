@@ -56,6 +56,10 @@ After cleaning, around 9,500 datapoints were left and the following columns were
 - Blurb words with top 100 roi means (binary)
 - Actors with more than 3 films to thier name (binary)
 
+Here is a small taste of the data frame appearance.
+
+![Screenshot 2021-05-13 at 17 29 34](https://user-images.githubusercontent.com/76961031/118156130-e9cdff00-b410-11eb-9ee9-ffd0f6a0b44c.png)
+
 
 ## Regression Modelling
 Linear Regression, a Support Vector Machine (linear kernel only) and a Decision Tree Regression was used to predict the ROI of films. The best model was an ElasticNet linear regression model for data where ROI was less than 500% and the model only yeilded a score of 0.155 showing limited explainability in ROI variance.
