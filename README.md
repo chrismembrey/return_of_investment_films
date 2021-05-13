@@ -65,6 +65,11 @@ As outliers were removed the training and test scores were ameliorated, giving i
 
 <img src = "/readme/ElasticNet_Models_with_Various_Preprocessing_Methods.jpeg" width="700">
 
+The different feature coefficients can be observed below.
+
+![ElasticNet_Model_Regression_Coefficients](https://user-images.githubusercontent.com/76961031/118154259-bc805180-b40e-11eb-92ea-59a2bcceed14.jpeg)
+
+
 The root mean squared error was also used as a metric to compare the models' performance.
 
 <img src = "/readme/ElasticNet_Models_with_Various_Preprocessing_Methods_rmse.jpeg" width="700">
@@ -76,8 +81,17 @@ ElasticNet Logistic Regression, Decision Tree Classification, XGBoost (ensemble 
 
 <img src = "/readme/Classification_Models_Train_scores.jpeg" width="700">
 
+Here are the feature importances of the best model, the ElasticNet Logistic Regression.
+
+![ElasticNet_logistic_regression_model_coefficients](https://user-images.githubusercontent.com/76961031/118154095-9064d080-b40e-11eb-83ac-5eacba8bb909.png)
+
 
 A multi-class classification model was also carried out. The ROI variable was split into quintiles (baseline accuracy of 0.20) and an ElastiNet Logistic Regression produced an accuracy of 0.33.
+
+Below you can see the effect of the top variables across the five classes.
+
+![Screenshot 2021-05-13 at 17 09 26](https://user-images.githubusercontent.com/76961031/118153991-6a3f3080-b40e-11eb-943c-4499b87ecf7d.png)
+
 
 
 
