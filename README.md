@@ -110,7 +110,7 @@ Although the models are not productionable (based on low r-squared scores and mi
 
 
 ## Notebook Order
-1. movie_scraping_final.ipynb  
+1. scraper.ipynb  
 2. cleaning & EDA.ipynb  / BLURB SPACY ANALYSIS.ipynb
 3. modelling to see feature importance using regression techniques.ipynb
 4. classifying_profit_for_comparison_against_the_regression_models.ipynb
