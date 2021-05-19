@@ -88,7 +88,7 @@ ElasticNet Logistic Regression, Decision Tree Classification, XGBoost (ensemble 
 
 Here are the feature importances of the best model, the ElasticNet Logistic Regression.
 
-![ElasticNet_logistic_regression_model_coefficients](https://user-images.githubusercontent.com/76961031/118154095-9064d080-b40e-11eb-83ac-5eacba8bb909.png)
+![image](https://user-images.githubusercontent.com/76961031/118817206-e2907080-b8aa-11eb-8718-96d3c56cfa90.png)
 
 
 A multi-class classification model was also carried out. The ROI variable was split into quintiles (baseline accuracy of 0.20) and an ElastiNet Logistic Regression produced an accuracy of 0.33.
