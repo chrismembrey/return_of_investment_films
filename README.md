@@ -64,7 +64,7 @@ Here is a small taste of the data frame appearance.
 ## Regression Modelling
 Linear Regression, a Support Vector Machine (linear kernel only) and a Decision Tree Regression was used to predict the ROI of films. The best model was an ElasticNet linear regression model for data where ROI was less than 500% and the model only yeilded a score of 0.155 showing limited explainability in ROI variance.
 
-<img src = "/readme/regression_models_original.png" width="700">
+![image](https://user-images.githubusercontent.com/76961031/118816969-a52be300-b8aa-11eb-8d0f-ccaa7b3988ce.png)
 
 As outliers were removed the training and test scores were ameliorated, giving increased confidence in the effect/importance of the coefficients (variables).
 
