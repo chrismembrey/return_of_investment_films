@@ -72,7 +72,7 @@ As outliers were removed the training and test scores were ameliorated, giving i
 
 The different feature coefficients can be observed below.
 
-![ElasticNet_Model_Regression_Coefficients](https://user-images.githubusercontent.com/76961031/118154259-bc805180-b40e-11eb-92ea-59a2bcceed14.jpeg)
+![image](https://user-images.githubusercontent.com/76961031/118817113-c8569280-b8aa-11eb-8e89-543023ee53e2.png)
 
 
 The root mean squared error was also used as a metric to compare the models' performance.
