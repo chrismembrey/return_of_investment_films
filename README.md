@@ -64,11 +64,11 @@ Here is a small taste of the data frame appearance.
 ## Regression Modelling
 Linear Regression, a Support Vector Machine (linear kernel only) and a Decision Tree Regression was used to predict the ROI of films. The best model was an ElasticNet linear regression model for data where ROI was less than 500% and the model only yeilded a score of 0.155 showing limited explainability in ROI variance.
 
-<img src = "/readme/regression_models_original.jpeg" width="700">
+<img src = "/readme/regression_models_original.png" width="700">
 
 As outliers were removed the training and test scores were ameliorated, giving increased confidence in the effect/importance of the coefficients (variables).
 
-<img src = "/readme/ElasticNet_Models_with_Various_Preprocessing_Methods.jpeg" width="700">
+<img src = "/readme/ElasticNet_Models_with_Various_Preprocessing_Methods.png" width="700">
 
 The different feature coefficients can be observed below.
 
@@ -84,7 +84,7 @@ The root mean squared error was also used as a metric to compare the models' per
 ElasticNet Logistic Regression, Decision Tree Classification, XGBoost (ensemble method) and a Support Vector Machine were used to predict whether films would make a profit or not. Each film performed better than randomly guessing if the film would make a profit (above the baseline accuracy) with the best being an ElasticNet logistic regression model (l1_ratio of 0.21 , C of 51.79). The ElasticNet model had a cross validated accuacy of ~0.66 and had a similar score to the Support Vetor Machine.
 
 
-<img src = "/readme/Classification_Models_Train_scores.jpeg" width="700">
+<img src = "/readme/Classification_Models_Train_scores.png" width="700">
 
 Here are the feature importances of the best model, the ElasticNet Logistic Regression.
 
