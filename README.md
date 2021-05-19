@@ -33,7 +33,7 @@ The cleaning of these movies was achieved using the following steps:
 - Tokenization (blurbs)
 - Count Vectorization (blurbs)
 - Data Binning
-- Standardisation (Continuous Features)
+- Standardisation (continuous features)
 - Hypothesis testing was used to determine if ROI means were significantly different between categories of variables, indicating whether the variable had predictive power for ROI
 
 NB - Initially, not all of the outliers could be removed since I needed a dataset as close to 10,000 observations as possible.
