@@ -68,7 +68,7 @@ Linear Regression, a Support Vector Machine (linear kernel only) and a Decision 
 
 As outliers were removed the training and test scores were ameliorated, giving increased confidence in the effect/importance of the coefficients (variables).
 
-<img src = "/readme/ElasticNet_Models_with_Various_Preprocessing_Methods.png" width="700">
+![image](https://user-images.githubusercontent.com/76961031/118816713-5c742a00-b8aa-11eb-874f-8d66b89f07d4.png)
 
 The different feature coefficients can be observed below.
 
@@ -77,7 +77,7 @@ The different feature coefficients can be observed below.
 
 The root mean squared error was also used as a metric to compare the models' performance.
 
-<img src = "/readme/ElasticNet_Models_with_Various_Preprocessing_Methods_rmse.jpeg" width="700">
+![image](https://user-images.githubusercontent.com/76961031/118816751-672ebf00-b8aa-11eb-8f42-0dcd08a3dac3.png)
 
 
 ## Classification Modelling
