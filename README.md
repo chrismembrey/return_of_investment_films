@@ -21,6 +21,7 @@ According to Statista, the film industry generates roughly $10Bn a year in reven
 
 TMDB & IMDB are the most commonly used open-source websites where users can input information on films they have seen, the latter having information on ~7 Million titles.
 
+NB - Before you read any further I recommend turning your github screen display to white, if it isn't so already, such that the visualisations are easier to interpret.
 
 ## Data Collection & Pre-Processing
 TMDB was primarily used to collect the data since it had fast API calls using the tmdbsimple package. Conversely, although IMDB has more trustworthy information (Amazon owns IMDB and so the information given is constantly monitored), the API calls were incredibly slow so only a few variables could be collected using this API. Movies were only collected in a dataframe if they had both budgets and revenues greater than $0.
