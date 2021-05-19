@@ -17,20 +17,20 @@ https://docs.google.com/presentation/d/143nyULpnLyzoOyFYceJvd_ZPJrZUcaTPaFIGM6gT
 
 
 ## Introduction
-According to Statista, the film industry generates roughly $10Bn a year in revenue. If its possible to find variables that can predict whether films will have high return of investment (ROI) or profit, a model can be created to help production companies come to a decision when giving a movie the green light or not.
+According to Statista, the film industry generates roughly $10Bn a year in revenue. If it's possible to find variables that can predict whether films will have high return of investment (ROI) or profit, a model can be created to help production companies come to a decision when giving a movie the green light or not.
 
-TMDB & IMDB are the most commonly used open-source websites where users can input infomation on films they have seen, the latter having infomation on ~7 Million titles.
+TMDB & IMDB are the most commonly used open-source websites where users can input information on films they have seen, the latter having information on ~7 Million titles.
 
 
 ## Data Collection & Pre-Processing
-TMDB was primarily used to collect the data since it had fast API calls using the tmdbsimple package. Conversly, although IMDB has more trustworthy infomation (amazon own IMDB and so the infomation given is consistenly monitored), the API calls were incredibly slow so only a few varibales could be collected using this API. Movies were only collected in a dataframe if they had both budgets and revenues greater than $0.
+TMDB was primarily used to collect the data since it had fast API calls using the tmdbsimple package. Conversely, although IMDB has more trustworthy information (Amazon owns IMDB and so the information given is constantly monitored), the API calls were incredibly slow so only a few variables could be collected using this API. Movies were only collected in a dataframe if they had both budgets and revenues greater than $0.
 
 
-The cleaning of these movies was acheived using the following steps:
+The cleaning of these movies was achieved using the following steps:
 - Replacing null values with medians/means where appropriate 
 - Removal of films with budgets and revenues less than $10,000
 - Dummification (categories)
-- Tokenisation (blurbs)
+- Tokenization (blurbs)
 - Count Vectorization (blurbs)
 - Data Binning
 - Standardisation (Continuous Features)
@@ -38,7 +38,7 @@ The cleaning of these movies was acheived using the following steps:
 
 NB - Initially, not all of the outliers could be removed since I needed a dataset as close to 10,000 observations as possible.
 
-After cleaning, around 9,500 datapoints were left and the following columns were used for ROI/profit prediction:
+After cleaning, around 9,500 data points were left and the following columns were used for ROI/profit prediction:
 
 - Directors (binary)
 - Composers (binary)
@@ -51,19 +51,20 @@ After cleaning, around 9,500 datapoints were left and the following columns were
 - Blurb length (continuous)
 - From collection (binary)
 - Blurb objectivity (continuous)
-- Blurb polarity (coninuous)
+- Blurb polarity (continuous)
 - Unique genre pairing (binary)
 - Blurb words with top 100 roi means (binary)
-- Actors with more than 3 films to thier name (binary)
+- Actors with more than 3 films to their name (binary)
 
 Here is a small taste of the data frame appearance.
 
 ![Screenshot 2021-05-13 at 17 29 34](https://user-images.githubusercontent.com/76961031/118156130-e9cdff00-b410-11eb-9ee9-ffd0f6a0b44c.png)
 
-To see the full cleaning and EDA of the scraped data, please see the jupyter notebook in the folder titled ''.
+To see the full cleaning and EDA of the scraped data, please see the jupyter notebook in the folder titled 'cleaning_eda'.
+
 
 ## Regression Modelling
-Linear Regression, a Support Vector Machine (linear kernel only) and a Decision Tree Regression was used to predict the ROI of films. The best model was an ElasticNet linear regression model for data where ROI was less than 500% and the model only yeilded a score of 0.155 showing limited explainability in ROI variance.
+Linear Regression, a Support Vector Machine (linear kernel only) and a Decision Tree Regression was used to predict the ROI of films. The best model was an ElasticNet linear regression model for data where ROI was less than 500% and the model only yielded a score of 0.155 showing limited explainability in ROI variance.
 
 ![image](https://user-images.githubusercontent.com/76961031/118816969-a52be300-b8aa-11eb-8d0f-ccaa7b3988ce.png)
 
@@ -80,9 +81,10 @@ The root mean squared error was also used as a metric to compare the models' per
 
 ![image](https://user-images.githubusercontent.com/76961031/118816751-672ebf00-b8aa-11eb-8f42-0dcd08a3dac3.png)
 
+To see the full method behind the regression analysis, please see the notebook titled 'modelling to see feature importance using regression techniques' in the 'modelling' folder.
 
 ## Classification Modelling
-ElasticNet Logistic Regression, Decision Tree Classification, XGBoost (ensemble method) and a Support Vector Machine were used to predict whether films would make a profit or not. Each film performed better than randomly guessing if the film would make a profit (above the baseline accuracy) with the best being an ElasticNet logistic regression model (l1_ratio of 0.21 , C of 51.79). The ElasticNet model had a cross validated accuacy of ~0.66 and had a similar score to the Support Vetor Machine.
+ElasticNet Logistic Regression, Decision Tree Classification, XGBoost (ensemble method) and a Support Vector Machine were used to predict whether films would make a profit or not. Each film performed better than randomly guessing if the film would make a profit (above the baseline accuracy) with the best being an ElasticNet logistic regression model (l1_ratio of 0.21 , C of 51.79). The ElasticNet model had a cross validated accuracy of ~0.66 and had a similar score to the Support Vector Machine.
 
 
 ![image](https://user-images.githubusercontent.com/76961031/118816000-ac062600-b8a9-11eb-8272-206a66bfd4f6.png)
@@ -98,6 +100,7 @@ Below you can see the effect of the top variables across the five classes.
 
 ![Screenshot 2021-05-13 at 17 25 22](https://user-images.githubusercontent.com/76961031/118155596-4b419e00-b410-11eb-898b-13b8a4f9a8b6.png)
 
+To see the complete classification analysis, including the classification matrix, ROC curve and precision/recall curve, please see the notebook titled 'classifying_profit_for_comparison_against_the_regression_models' in the modelling folder.
 
 
 ## Conclusion
