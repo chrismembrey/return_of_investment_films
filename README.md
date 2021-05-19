@@ -98,7 +98,7 @@ A multi-class classification model was also carried out. The ROI variable was sp
 
 Below you can see the effect of the top variables across the five classes.
 
-![Screenshot 2021-05-13 at 17 25 22](https://user-images.githubusercontent.com/76961031/118155596-4b419e00-b410-11eb-898b-13b8a4f9a8b6.png)
+![image](https://user-images.githubusercontent.com/76961031/118819332-284e3880-b8ad-11eb-9897-204ae5ae7bdc.png)
 
 To see the complete classification analysis, including the classification matrix, ROC curve and precision/recall curve, please see the notebook titled 'classifying_profit_for_comparison_against_the_regression_models' in the modelling folder.
 
