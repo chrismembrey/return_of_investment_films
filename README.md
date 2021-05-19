@@ -3,7 +3,7 @@
 <img src = "/readme/movie_collage.png" width="700">
 
 **Look at the full presentation here:**
-https://docs.google.com/presentation/d/143nyULpnLyzoOyFYceJvd_ZPJrZUcaTPaFIGM6gTPUE/edit#slide=id.p
+https://docs.google.com/presentation/d/143nyULpnLyzoOyFYceJvd_ZPJrZUcaTPaFIGM6gTPUE/edit?usp=sharing
 
 
 ## Table of Contents
