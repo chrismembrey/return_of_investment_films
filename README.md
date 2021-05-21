@@ -107,7 +107,7 @@ To see the complete classification analysis, including the classification matrix
 ## Conclusion
 
 Although the models are not productionable (based on low r-squared scores and minimal improvement on baseline accuracy), through them I have found one feature which can certainly be used to predict film ROI in future models, from_collection, which appeared to be the highest coefficient in every regression and classification model. For the classification model in particular, the coefficient for the from_collection variable indicated that the odds of making a profit for films that are from a collection are 464% higher than those that are not from a collection.
-Other notable features that had a positive effect on ROI were actors Tom Criuse, Tom Hanks and Brad Pitt as well as day_wednesday, which suggests that films released on a wednesday will have improved ROI. 
+Other notable features that had a positive effect on ROI were actors Tom Cruise, Tom Hanks and Brad Pitt as well as day_wednesday, which suggests that films released on a wednesday will have improved ROI. 
 
 ## Improvments to be Made
 - Use an alternative data source for film budgets and revenues (e.g. the-numbers.com). 
