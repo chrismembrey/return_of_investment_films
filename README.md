@@ -54,7 +54,7 @@ After cleaning, around 9,500 data points were left and the following columns wer
 - Blurb objectivity (continuous)
 - Blurb polarity (continuous)
 - Unique genre pairing (binary)
-- Blurb words with top 100 roi means (binary)
+- Blurb words with top 100 ROI means (binary)
 - Actors with more than 3 films to their name (binary)
 
 Here is a small taste of the data frame appearance.
